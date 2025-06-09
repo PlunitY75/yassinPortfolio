@@ -1,0 +1,88 @@
+.containerS1 {
+  background-color: #4280fd88;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+p, h1{
+    margin: 0;
+    padding: 0;
+}
+
+.innerContainerS1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.titleContainerS1{
+    margin-right: 75px;
+}
+
+.prenomContainer{
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+
+.prenom{
+    font-size: 65px;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+.prenom:hover{
+    color: rgb(99, 22, 35);
+}
+.descTitle{
+    display: flex;
+    margin-bottom: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.descriptionTitle{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(104, 104, 138);
+}
+
+.imageContainerS1{
+    display: flex;
+    border-radius: 50%;
+    height: 450px;
+    width: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(56, 56, 56, 0.4);
+}
+.imageContainerS1:hover{
+    box-shadow: 0 0 30px rgba(255, 254, 254, 0.4);
+    transition: box-shadow 0.4s;
+}
+
+.pp{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.animatedWord {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid black;
+  color: rgb(99, 22, 35);
+  animation: typing 2.5s steps(20, end), blink 1.5s step-end infinite
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 30% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}

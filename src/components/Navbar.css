@@ -1,0 +1,79 @@
+.nbContainer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.nbInnerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.pagesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.pagesContainer a{
+    padding: 11px 20px 11px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pagesContainer a:hover{
+    background-color: #1057e66e;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.otherContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lkdlogo{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lkdlogo :hover{
+    transition: background-color 0.3s;
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.logoContainer:hover {
+  transition: background-color 0.3s;
+}
+.logoPortfolio{
+    height: 50px;
+    width: 50px;
+}
