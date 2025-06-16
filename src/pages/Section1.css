@@ -73,7 +73,7 @@ p, h1{
 .animatedWord {
   display: inline-block;
   overflow: hidden;
-  border-right: 2px solid black;
+  border-right: 2px solid red;
   color: rgb(99, 22, 35);
   animation: typing 2.5s steps(20, end), blink 1.5s step-end infinite
 }
