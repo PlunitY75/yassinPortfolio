@@ -77,6 +77,9 @@ p, h1{
   color: rgb(99, 22, 35);
   animation: typing 2.5s steps(20, end), blink 1.5s step-end infinite
 }
+.nomEntreprise {
+    font-size: 20px;
+}
 
 @keyframes typing {
   from { width: 0% }

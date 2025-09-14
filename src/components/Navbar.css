@@ -6,6 +6,15 @@
     padding: 20px 0px 20px 0px;
     position: fixed;
     width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease, padding 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    z-index: 1000;
+}
+
+.nbContainer.scrolled {
+    background-color: rgb(37, 37, 37); /* Ou la couleur que tu veux */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px 0px 8px 0px;
 }
 
 .nbInnerContainer{
@@ -13,7 +22,6 @@
     flex-direction: row;
     align-items: center;
     width: 70%;
-    
 }
 
 .pageContainer{
@@ -21,7 +29,6 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
-
 }
 
 .pagesContainer{
@@ -35,8 +42,17 @@
     cursor: pointer;
     font-weight: bold;
 }
+.pagesContainer.scrolled a{
+    color: aliceblue;
+}
+
 .pagesContainer a:hover{
     background-color: #1057e66e;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+.pagesContainer.scrolled a:hover{
+    background-color: #6666666e;
     border-radius: 8px;
     transition: background-color 0.3s;
 }

@@ -23,9 +23,8 @@ function Section1() {
                     
                     <h1 className='descTitle'> Futur Ingénieur spécialisé dans le&nbsp;<span className="animatedWord">Développement </span> </h1>
                     <p className='descriptionTitle'>
-                        Admis au cycle Ingénieur Informatique à l'ESIEA Paris, je suis à la recherche d'une alternance 
-                        <br></br> pour la rentrée de Septembre 2025 dans le domaine du développement, de la data ou 
-                        <br></br> dans la gestion de projets informatique.
+                        Futur Ingénieur Informatique à l'ESIEA, je suis actuellement en alternance en tant que <br></br> développeur fullstack au sein de 
+                        <a className="nomEntreprise" style={{color: "rgba(43, 117, 202, 1)"}}  href ="https://monclub.eu/"> MonClub</a>  !
                     </p>
                 </div>
             </div>
